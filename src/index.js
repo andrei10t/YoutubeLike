@@ -1,10 +1,11 @@
+require('dotenv').config()
 import React, { Component } from 'react'
 import RD from 'react-dom'
 import SB from './components/search'
 import YSearch from 'youtube-api-search'
 import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
-const API_KEY = 'AIzaSyBDsZfgy1AZEpowvZLfkgMgo-7KaX-OD1M'
+const API_KEY = SECRET_API
 
 // create component that produces html
 class App extends Component {
